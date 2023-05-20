@@ -6,28 +6,35 @@ body {
   margin: 0;
   padding: 0;
 }
-
-h1, h2, h3, h4 {
+ h1,h2, h3, h4 {
   margin: 0;
   padding: 0;
 }
 
+
 .section {
-  margin: 40px 0;
+  margin: 30px 80px 10px 80px;
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
 
 }
 
 .section h2 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #161515;
+  color: #f1f1f1;
+  padding: 10px;
+
 }
 
 .section p {
   margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .section ul {
@@ -36,12 +43,12 @@ h1, h2, h3, h4 {
 }
 
 .section li {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #3217fc;
 }
 
 /* Header Styles */
@@ -105,6 +112,9 @@ nav a:hover {
 .fade-in {
   opacity: 0;
   animation: fadeInAnimation 1s ease-in forwards;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @keyframes fadeInAnimation {

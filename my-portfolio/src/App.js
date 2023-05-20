@@ -134,19 +134,19 @@ function App() {
         <h2>Skills</h2>
         <div>
           <h3>Languages</h3>
-          <p>C++, Python (Basic), CSS, HTML, JavaScript (Basic), Octave</p>
+          <ul>C++, Python (Basic), CSS, HTML, JavaScript (Basic), Octave</ul>
         </div>
         <div>
           <h3>Technologies</h3>
-          <p>Tableau (Basic), Wordpress, QGIS (Beginner), SQL/MySQL, React (Beginner)</p>
+          <ul>Tableau (Basic), Wordpress, QGIS (Beginner), SQL/MySQL, React (Beginner)</ul>
         </div>
         <div>
           <h3>Other Skills</h3>
-          <p>Canva, SEO, MS Office</p>
+          <ul>Canva, SEO, MS Office</ul>
         </div>
         <div>
           <h3>Soft Skills</h3>
-          <p>Empathy, Adaptability, Creativity, Teamwork, Problem Solving, Active Listening, Leadership</p>
+          <ul>Empathy, Adaptability, Creativity, Teamwork, Problem Solving, Active Listening, Leadership</ul>
         </div>
       </section>
 
@@ -176,17 +176,17 @@ function App() {
       <section id="extracurricular-activities" className="section">
         <h2>Extracurricular Activities</h2>
         <ul>
-          <li>Community Connect Fellowship (CCF)</li>
-          <li>National Service Scheme (NSS)</li>
-          <li>Semiclassical Dancer</li>
-          <li>Elementary and Intermediate Exam (Drawing Exam)</li>
+          <p>Community Connect Fellowship (CCF)</p>
+          <p>National Service Scheme (NSS)</p>
+          <p>Semiclassical Dancer</p>
+          <p>Elementary and Intermediate Exam (Drawing Exam)</p>
         </ul>
 
-        <h4>Certifications</h4>
+        {/* <h4>Certifications</h4>
         <ul>
           <li>Artificial Intelligence (Certification)</li>
           <li>Inspiring Leadership through Emotional Intelligence (Certification)</li>
-        </ul>
+        </ul> */}
       </section>
 
       <section id="contact" className="section">
